@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-<p> <strong style="text-align: center; font-size: 50px;"> How to run this application on your device? </strong> </p>
+# How to run this application on your device? 
 
 <ol>
 	<li>Clone or downlaod the zip file on your device</li>
