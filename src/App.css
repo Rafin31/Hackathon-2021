@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --font :'Montserrat', sans-serif;
+}
+/* ------------------------------- Banner--------------------------------- */
+.banner{
+  height: 60vh;
+  width: 100vw;
+  background-color:RGB(188, 221, 255);  
+  font-family: 'Staatliches', serif ;
+  font-weight: lighter !important;
+  
+}
+.banner .banner_row{
+  align-items: center !important;
+  text-align: center;
+  letter-spacing: 0.2rem;
+
+}
+.banner .banner_row h3{
+  color: RGB(3, 4, 50);
+}
+.banner .banner_row span{
+  color: #c0392b;
+}
+.banner .banner_row .left{
+  margin-top: 50px;
+}
+.fixed{
+  height: 100px;
+  width: 100vw;
+
+}
+.banner .inputText{
+  position: relative;
+  width: 400px;
+  border-radius: 20px;
+  border: none;
+  padding: 6px 20px;
+  color: black;
+}
+.banner .button{
+  position: absolute;
+  left: 34.5%;
+  top: 58.5%;
+  border-radius: 20px !important;
+  background-color: #c0392b;
+  color: white;
+  border: navajowhite;
+  padding: 6px 20px;
+  transform: 0.5s all ease;
+}
+.banner input:focus {
+  outline: none !important;
+}
+.banner .button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid #c0392b;
+}
+
+.courses{
+height: auto;
+margin-top: 50px;
+padding: 10px 25px;
+
+}
+.courses_row{
+  margin: 60px 0px !important;
+
+ 
+}
+.courses .icon{
+  text-align: center !important;
+  font-size: 1rem !important;
+}
+.container_courses{
+  padding: 10px 15px;
+  margin: 15px;
+  transition: 0.3s all ease-in-out;
+}
+.container_courses:hover{
+  color: white;
+  background:linear-gradient(40deg ,#4b6cb7 ,#182848);
+}
+.container_courses:hover ~ .courses .Link{
+  color: white !important;
+}
+.courses .Link{
+  text-decoration: none;
+  color: black;
+}
+.course_button{
+  padding: 10px 15px ;
+  border: 1px solid #c0392b ;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  transition: 0.1s all ease-in;
+  margin: 25px 0px 50px 0px;
+}
+.course_button:hover{
+  background-color: #c0392b;
+  color: white;
+}
+
+.stats{
+ height: auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ background-color: RGB(246, 251, 255);
+ padding: 20px 10px;
+ margin: 25px 0px;
+ text-align: center;
+}
+.stats .box1
+{
+  color: #393e79;
+}
+.stats .box2
+{
+  color: RGB(107, 163, 101);
+}
+.stats .box3
+{
+  color: RGB(212, 114, 66);
+}
+.stats .box4
+{
+  color:orange;
+}
+
+.popular_courses {
+  height: auto;
+}
+.popular_courses .courses img{
+  height: 250px;
+}
+.popular_courses .courses{
+  margin: 10px 15px;
+}
+.Institutions{
+  height: auto;
+
+}
+
+.aboutus{
+  align-items: center !important;
+}
+.footer{
+  height: 80vh;
+  background-color: RGB(12, 11, 29);
+}
+.footer_con{
+  align-items: center;
+  height: 40%;
+}
+.footerinput{
+  position: relative;
+  width: 500px;
+  border-radius: 20px;
+  border: none;
+  padding: 6px 20px;
+  color: black;
+}
+.subscibe{
+  position: absolute;
+  right: 32.5%;
+  border-radius: 20px !important;
+  background-color: #c0392b;
+  color: white;
+  padding: 6px 20px;
+  transform: 0.5s all ease;
+}
+
+/* .subscibe:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid #c0392b;
+} */
+.footer_head{
+  margin-left: 32%;
+}
+.footerinput:focus {
+  outline: none !important;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.footer_bootom{
+  width: 100%;
+  text-align: center;
+}
+.footer_bootom .heading{
+  color: white;
+  margin-bottom: 20px;
+}
+ul{
+  list-style-type: none;
+}
+.Links{
+  text-decoration: none;
+  color: gainsboro;
+  transition: 0.3s all ease;
+  margin-right: 50px;
+}
+.Links:hover{
+margin-left: 10px;
+color: gainsboro;
+}
+.footer .bottom{
+  position: absolute;
+  bottom: 20;
+}
